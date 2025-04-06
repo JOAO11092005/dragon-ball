@@ -35,6 +35,7 @@ main .personagem .imagem{
     height: 100vh;
     max-width: 380px;
     z-index: 1;
+    
 }
 .conteudo .nome-personagem{
     color: #ffffff;

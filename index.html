@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Dragon ball Z</title>
-    <link rel="stylesheet" href="./src/css/responsive.css">
+    
     <link rel="stylesheet" href="./src/css/reset.css">
     <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
     <link rel="shortcut icon" href="https://i.pinimg.com/736x/3c/e1/a3/3ce1a31efac15a71472b00dadff0882a.jpg"
         type="image/x-icon">
 
@@ -26,7 +27,7 @@
 
 <body>
     <main class="personagems">
-        <div class="personagem selecionado">
+        <div class="personagem ">
             <picture>
                 <source srcset="./src/img/goku.jpg" media="(min-width: 768px)">
                 <img class="imagem" src="./src/img/goku-celular.jpg" alt="Goku">
@@ -58,6 +59,20 @@
         </div>
         <div class="personagem">
             <picture>
+                <source srcset="./src/img/picolo&gohan.jpg" media="(min-width: 768px)">
+                <img class="imagem" src="./src/img/picolo&gohan-celular.jpg" alt="Vegeta">
+            </picture>
+
+            <div class="conteudo">
+                <h2 class="nome-personagem">Picolo & Gohan</h2>
+                <p class="descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore laboriosam
+                    quibusdam libero molestias eligendi doloremque inventore sed assumenda dignissimos beatae. Iste
+                    accusamus saepe consequatur praesentium velit eaque nemo impedit voluptatum.</p>
+            </div>
+
+        </div>
+        <div class="personagem">
+            <picture>
                 <source srcset="./src/img/vegeta.jpg" media="(min-width: 768px)">
                 <img class="imagem" src="./src/img/vegeta-celular.jpg" alt="Vegeta">
             </picture>
@@ -70,7 +85,7 @@
             </div>
 
         </div>
-        <div class="personagem ">
+        <div class="personagem selecionado">
             <picture>
                 <source srcset="./src/img/trunks.jpg" media="(min-width: 768px)">
                 <img class="imagem" src="./src/img/trunks-celular.jpg" alt="Goku">
@@ -89,22 +104,27 @@
     </main>
     <ul class="botoes">
         <li>
-            <button class="botao selecionado">
-                <img src="./src/img/goku-perfil.jpg" alt="Goku">
+            <button class="botao ">
+                <img src="https://pub-4a3c24f6ac404938b61bca5aa26b27e2.r2.dev/goku-perfil.jpg" alt="Goku">
             </button>
         </li>
         <li>
-            <button class="botao ">
+            <button class="botao gohan">
                 <img src="./src/img/gohan-perfil.jpg" alt="Gohan">
             </button>
         </li>
         <li>
             <button class="botao">
-                <img src="./src/img/vegeta-perfil.jpg" alt="Vegeta">
+                <img src="./src/img/piclolo&gohan-perfil.jpg" alt="Gohan">
             </button>
         </li>
         <li>
             <button class="botao">
+                <img src="https://pub-4a3c24f6ac404938b61bca5aa26b27e2.r2.dev/vegeta-perfil.jpg" alt="Vegeta">
+            </button>
+        </li>
+        <li>
+            <button class="botao selecionado">
                 <img src="./src/img/trunks-perfil.jpg" alt="goku">
             </button>
         </li>
